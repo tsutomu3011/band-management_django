@@ -1,0 +1,59 @@
+.side__bar {
+  width: 300px;
+  height: 940px;
+  font-style: italic;
+}
+.side__bar__top {
+  height: 25%;
+  position: relative;
+}
+.side__bar__top .guitar__logo {
+  height: 100%;
+  width: 300px;
+  vertical-align: bottom;
+  opacity: 0.9;
+  transition-duration: 0.3s;
+}
+.side__bar__top h2 {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  transition-property: letter-spacing;
+  transition-duration: 0.3s;
+}
+.side__bar__top:hover .guitar__logo {
+  opacity: 1;
+}
+.side__bar__top:hover h2 {
+  letter-spacing: 3px;
+}
+.side__bar__titles {
+  height: 75%;
+}
+.side__bar__titles .side__bar__title {
+  position: relative;
+  height: 25%;
+}
+.side__bar__titles .side__bar__title__logo {
+  height: 100%;
+  width: 300px;
+  vertical-align: bottom;
+  opacity: 0.9;
+  transition-duration: 0.3s;
+}
+.side__bar__titles .side__bar__title h2 {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  font-weight: bold;
+  color: white;
+  transition-duration: 0.3s;
+}
+.side__bar__titles .side__bar__title:hover .side__bar__title__logo {
+  opacity: 1;
+}
+.side__bar__titles .side__bar__title:hover h2 {
+  letter-spacing: 3px;
+}

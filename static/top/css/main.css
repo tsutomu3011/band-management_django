@@ -1,0 +1,23 @@
+.main {
+  width: calc( 100vw - 300px );
+  position: relative;
+  height: 940px;
+  font-style: italic;
+  background-image: url("/static/image/studio.jpg");
+  background-size: cover;
+}
+.main__message {
+  color: white;
+  height: 120px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.main__message__title {
+  font-size: 95px;
+  margin-bottom: 10px;
+}
+.main__message__content {
+  text-align: right;
+  font-size: 30px;
+}
