@@ -1,0 +1,39 @@
+.photo {
+  height: 940px;
+  width: 100vw;
+  background-image: url("/static/image/photo_background.jpg");
+  background-size: cover;
+}
+.photo__upload {
+  color: #777777;
+  height: 140px;
+  padding: 80px 0 20px 600px;
+}
+.photo__upload__file {
+  margin-left: 20px;
+}
+.photo__gallery {
+  height: 800px;
+  padding: 0 0 0 450px;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo__gallery .photo__list {
+  padding: 0 100px 50px 0;
+  position: relative;
+}
+.photo__gallery .photo__list__situation {
+  font-size: 24px;
+  font-weight: bold;
+  color: #777777;
+}
+.photo__gallery .photo__list__time {
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  color: #777777;
+}
+.photo__gallery .photo__list__image {
+  vertical-align: bottom;
+}
