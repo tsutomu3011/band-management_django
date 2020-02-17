@@ -2,7 +2,7 @@
 
 <div class="side__bar">
   <div class="side__bar__top">
-    <a href="">
+    <a href="{% url 'top:index' %}">
       <img src="{% static "image/aco-guitar.jpg" %}" class="guitar__logo">
       <h2>Home</h2>
     </a>
@@ -15,7 +15,7 @@
       </a>
     </div>
     <div class="side__bar__title">
-      <a href="">
+      <a href="{% url 'top:wallet' %}">
         <img src="{% static "image/money1.jpg" %}" class="side__bar__title__logo">
         <h2>Wallet</h2>
       </a>
