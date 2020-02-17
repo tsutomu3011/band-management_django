@@ -1,0 +1,12 @@
+<div class="photo">
+  <div class="photo__upload">
+    <form enctype="multipart/form-data" action="/photos" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="xKyW9yl5cfCGvJj9rcoKbaaQF2jR6QcEymIX8G8QanfzmOFHyErA3MUCg/F1CT+n9qU3HBpGS/zcBWDDPQ8MYw=="><select name="photo[situation]" id="photo_situation"><option value="Live">Live</option>
+      <option value="Days">Days</option>
+      <option value="All">All</option></select>
+      <input class="photo__upload__file" type="file" name="photo[image]" id="photo_image">
+      <input type="submit" name="commit" value="Send" class="photo__upload__submit" data-disable-with="Send">
+    </form>
+  </div>
+  <div class="photo__gallery">
+  </div>
+</div>
