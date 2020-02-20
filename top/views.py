@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Photo
+from .models import Photo, Wallet
 from .forms import PhotoForm
 
 # Create your views here.
@@ -7,7 +7,9 @@ def index(request):
     return render(request, 'top/index.html')
 
 def wallet(request):
-    return render(request, 'top/wallet.html')
+    last_wallet = Wallet.objects.last()
+    context = {'last_wallet':last_wallet}
+    return render(request, 'top/wallet.html', context)
 
 def photo(request):
     if request.method == "POST":
