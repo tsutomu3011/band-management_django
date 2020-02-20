@@ -9,3 +9,4 @@ def wallet(request):
 
 def photo(request):
   return render(request, 'top/photo.html')
+
