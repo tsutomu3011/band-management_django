@@ -1,5 +1,6 @@
 {% extends 'top/base.html' %}
 {% block content %}
+{% load widget_tweaks %}
 
 <div class="wrapper">
   {% include "./side_bar.html" %}
@@ -8,12 +9,16 @@
       <h2>Wallet Management</h2>
     </div>
     <div class="wallet__form">
-      <form action="/wallets" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="EKZZFlGLH/FA+dRa1W9H6SiAAI+zp4CBeKbUaNfXW3bg3gRaUxICVklaUun6fE5UD6G+uUU8eKRIa1jV+UrLIg=="><input placeholder="income" class="income" type="text" name="wallet[money]" id="wallet_money">
+      <form action="{% url 'top:wallet' %}" accept-charset="UTF-8" method="post">
+        {% csrf_token %}
+        {{ form.money|add_class:"income"|attr:"placeholder:income"}}
         <input type="submit" name="commit" value="SEND" class="button" data-disable-with="SEND">
       </form>
     </div>
     <div class="wallet__form">
-      <form action="/wallets" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="LQTQQCkNbfol8sRWVJ0lCURyPKKxkSrrVczAI9nxGp3dfI0MK5RwXSxRQuV7jiy0Y1OClEcK0s5lAUye92yKyQ=="><input placeholder="payment" class="payment" type="text" name="wallet[money]" id="wallet_money">
+      <form action="{% url 'top:wallet' %}" accept-charset="UTF-8" method="post">
+        {% csrf_token %}
+        {{ form.money|add_class:"payment"|attr:"placeholder:payment" }}
         <input type="submit" name="commit" value="SEND" class="button" data-disable-with="SEND">
       </form>
     </div>
@@ -36,7 +41,7 @@
                 labels: ["Surplus", "Deficit"],
                 datasets: [{
                     label: 'Balance',
-                    data: [100000, 200000],
+                    data: [{{wallet_bar}}, {{wallet_deficit_bar}}],
                     backgroundColor: [
                       'rgba(0, 0, 204, 0.1)',
                       'rgba(204, 102, 153, 0.1)'

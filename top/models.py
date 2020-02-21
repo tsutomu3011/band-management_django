@@ -9,9 +9,7 @@ class Photo(models.Model):
         return self.situation
 
 class Wallet(models.Model):
-    money = models.IntegerField(
-        default=0,
-    )
+    money = models.IntegerField()
 
     def __int__(self):
         return self.id
