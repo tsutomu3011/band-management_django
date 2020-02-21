@@ -7,3 +7,9 @@ class Photo(models.Model):
 
     def __str__(self):
         return self.situation
+
+class Wallet(models.Model):
+    money = models.IntegerField()
+
+    def __int__(self):
+        return self.id
