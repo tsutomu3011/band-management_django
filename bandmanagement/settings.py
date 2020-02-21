@@ -25,7 +25,7 @@ MEDIA_URL = '/media/'
 SECRET_KEY = '8s5h=ij!+7e%d=g7qh2#^%s6rn2*sw74o)ns#_tgp)cvs&9$ms'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -131,6 +131,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
 
 # if DEBUG:
 #     INTERNAL_IPS = ('127.0.0.1',)
