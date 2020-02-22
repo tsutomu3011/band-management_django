@@ -151,9 +151,9 @@ except ImportError:
     pass
 
 CLOUDINARY_STORAGE = {
-'CLOUD_NAME': 'your_cloud_name',
-'API_KEY': 'your_api_key',
-'API_SECRET': 'your_api_secret'
+'CLOUD_NAME': 'hqzk6hdpq',
+'API_KEY': '751288515247794',
+'API_SECRET': 'yJLmAP2UWKGRjZFF3ISZV6RILGs'
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
