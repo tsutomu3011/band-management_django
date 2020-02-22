@@ -1,6 +1,6 @@
 {% extends 'top/base.html' %}
 {% block content %}
-{% load widget_tweaks %}
+<!-- {% load widget_tweaks %} -->
 
 <div class="wrapper">
   {% include "./side_bar.html" %}
@@ -10,15 +10,15 @@
     </div>
     <div class="wallet__form">
       <form action="{% url 'top:wallet' %}" accept-charset="UTF-8" method="post">
-        {% csrf_token %}
-        {{ form.money|add_class:"income"|attr:"placeholder:income"}}
+        <!-- {% csrf_token %}
+        {{ form.money|add_class:"income"|attr:"placeholder:income"}} -->
         <input type="submit" name="commit" value="SEND" class="button" data-disable-with="SEND">
       </form>
     </div>
     <div class="wallet__form">
       <form action="{% url 'top:wallet' %}" accept-charset="UTF-8" method="post">
-        {% csrf_token %}
-        {{ form.money|add_class:"payment"|attr:"placeholder:payment" }}
+        <!-- {% csrf_token %}
+        {{ form.money|add_class:"payment"|attr:"placeholder:payment" }} -->
         <input type="submit" name="commit" value="SEND" class="button" data-disable-with="SEND">
       </form>
     </div>
