@@ -1,7 +1,7 @@
 .main {
   width: calc( 100vw - 300px );
   position: relative;
-  height: 940px;
+  height: 100vh;
   font-style: italic;
   background-image: url("/static/image/studio.jpg");
   background-size: cover;

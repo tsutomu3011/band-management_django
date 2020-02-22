@@ -1,6 +1,6 @@
 .side__bar {
   width: 300px;
-  height: 940px;
+  min-height: 100vh;
   font-style: italic;
 }
 .side__bar__top {
