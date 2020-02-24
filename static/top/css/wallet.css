@@ -1,161 +1,161 @@
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1024px) {
 
-.wallet {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  background-image: url("/static/image/wallet-background.jpg");
-  background-size: cover;
+  .wallet {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("/static/image/wallet-background.jpg");
+    background-size: cover;
+  }
+  .wallet__message {
+    font-size: 70px;
+    font-style: italic;
+    color: #999999;
+    padding-top: 150px;
+    padding-left: 200px;
+  }
+  .wallet__form {
+    padding-left: 400px;
+  }
+  .wallet__form .income {
+    color: #777777;
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #bbbbbb;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    outline: none;
+  }
+  .wallet__form .payment {
+    color: rgba(204, 102, 153, 0.6);
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #bbbbbb;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    outline: none;
+  }
+  .wallet__form .income::placeholder {
+    color: rgba(0, 0, 204, 0.3);
+  }
+  .wallet__form .payment::placeholder {
+    color: rgba(204, 102, 153, 0.3);
+  }
+  .wallet__form .button {
+    height: 30px;
+    width: 80px;
+    border: 2px solid #bbbbbb;
+    border-radius: 10px;
+    color: #666666;
+    margin-left: 200px;
+  }
+  .wallet .current__savings {
+    padding: 90px 0 0 350px;
+  }
+  .wallet .current__savings p {
+    font-size: 30px;
+    color: #777777;
+  }
+  .wallet .current__savings p span {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 20px;
+  }
+  .wallet__graph {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+  }
 }
-.wallet__message {
-  font-size: 70px;
-  font-style: italic;
-  color: #999999;
-  padding-top: 150px;
-  padding-left: 200px;
-}
-.wallet__form {
-  padding-left: 400px;
-}
-.wallet__form .income {
-  color: #777777;
-  display: block;
-  font-size: 25px;
-  height: 60px;
-  width: 300px;
-  text-align: center;
-  border: 2px solid #bbbbbb;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  margin-top: 150px;
-  outline: none;
-}
-.wallet__form .payment {
-  color: rgba(204, 102, 153, 0.6);
-  display: block;
-  font-size: 25px;
-  height: 60px;
-  width: 300px;
-  text-align: center;
-  border: 2px solid #bbbbbb;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  margin-top: 70px;
-  outline: none;
-}
-.wallet__form .income::placeholder {
-  color: rgba(0, 0, 204, 0.3);
-}
-.wallet__form .payment::placeholder {
-  color: rgba(204, 102, 153, 0.3);
-}
-.wallet__form .button {
-  height: 30px;
-  width: 80px;
-  border: 2px solid #bbbbbb;
-  border-radius: 10px;
-  color: #666666;
-  margin-left: 200px;
-}
-.wallet .current__savings {
-  padding: 90px 0 0 350px;
-}
-.wallet .current__savings p {
-  font-size: 30px;
-  color: #777777;
-}
-.wallet .current__savings p span {
-  font-size: 55px;
-  font-weight: bold;
-  font-style: italic;
-  margin-left: 20px;
-}
-.wallet__graph {
-  position: absolute;
-  top: 40px;
-  right: 150px;
-}
-}
-
-
 
 
 
 
-@media screen and (max-width: 600px){
-.wallet {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  background-image: url("/static/image/wallet-background.jpg");
-  background-size: cover;
-}
-.wallet__message {
-  font-size: 70px;
-  font-style: italic;
-  color: #999999;
-  padding-top: 150px;
-  padding-left: 200px;
-}
-.wallet__form {
-  padding-left: 400px;
-}
-.wallet__form .income {
-  color: #777777;
-  display: block;
-  font-size: 25px;
-  height: 60px;
-  width: 300px;
-  text-align: center;
-  border: 2px solid #bbbbbb;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  margin-top: 150px;
-  outline: none;
-}
-.wallet__form .payment {
-  color: rgba(204, 102, 153, 0.6);
-  display: block;
-  font-size: 25px;
-  height: 60px;
-  width: 300px;
-  text-align: center;
-  border: 2px solid #bbbbbb;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  margin-top: 70px;
-  outline: none;
-}
-.wallet__form .income::placeholder {
-  color: rgba(0, 0, 204, 0.3);
-}
-.wallet__form .payment::placeholder {
-  color: rgba(204, 102, 153, 0.3);
-}
-.wallet__form .button {
-  height: 30px;
-  width: 80px;
-  border: 2px solid #bbbbbb;
-  border-radius: 10px;
-  color: #666666;
-  margin-left: 200px;
-}
-.wallet .current__savings {
-  padding: 90px 0 0 350px;
-}
-.wallet .current__savings p {
-  font-size: 30px;
-  color: #777777;
-}
-.wallet .current__savings p span {
-  font-size: 55px;
-  font-weight: bold;
-  font-style: italic;
-  margin-left: 20px;
-}
-.wallet__graph {
-  position: absolute;
-  top: 1100px;
-  right: 150px;
-}
+
+
+@media screen and (max-width: 639px){
+  .wallet {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("/static/image/wallet-background.jpg");
+    background-size: cover;
+  }
+  .wallet__message {
+    font-size: 70px;
+    font-style: italic;
+    color: #999999;
+    padding-top: 150px;
+    padding-left: 200px;
+  }
+  .wallet__form {
+    padding-left: 400px;
+  }
+  .wallet__form .income {
+    color: #777777;
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #bbbbbb;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    outline: none;
+  }
+  .wallet__form .payment {
+    color: rgba(204, 102, 153, 0.6);
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #bbbbbb;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    outline: none;
+  }
+  .wallet__form .income::placeholder {
+    color: rgba(0, 0, 204, 0.3);
+  }
+  .wallet__form .payment::placeholder {
+    color: rgba(204, 102, 153, 0.3);
+  }
+  .wallet__form .button {
+    height: 30px;
+    width: 80px;
+    border: 2px solid #bbbbbb;
+    border-radius: 10px;
+    color: #666666;
+    margin-left: 200px;
+  }
+  .wallet .current__savings {
+    padding: 90px 0 0 350px;
+  }
+  .wallet .current__savings p {
+    font-size: 30px;
+    color: #777777;
+  }
+  .wallet .current__savings p span {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 20px;
+  }
+  .wallet__graph {
+    position: absolute;
+    top: 1100px;
+    right: 150px;
+  }
 }
