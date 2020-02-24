@@ -33,6 +33,6 @@ def photo(request):
             return redirect('top:photo')
     else:
         form = PhotoForm()
-        photos = cloudinary.CloudinaryImage(Photo.image)
+        photos = Photo.objects.all()
         context = {'photos':photos, 'form':form}
         return render(request, 'top/photo.html', context)
