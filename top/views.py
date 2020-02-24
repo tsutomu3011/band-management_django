@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import Photo, Wallet
 from .forms import PhotoForm, WalletForm
+import cloudinary
 
 # Create your views here.
 def index(request):
@@ -32,6 +33,6 @@ def photo(request):
             return redirect('top:photo')
     else:
         form = PhotoForm()
-        photos = Photo.objects.all()
+        photos = cloudinary.api.resources(type="upload")
         context = {'photos':photos, 'form':form}
         return render(request, 'top/photo.html', context)
