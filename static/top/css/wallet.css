@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
 
   .wallet {
     height: 100vh;
@@ -82,7 +82,7 @@
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 479px){
   .wallet {
     height: 100vh;
     width: 100vw;
