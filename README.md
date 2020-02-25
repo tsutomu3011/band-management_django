@@ -6,6 +6,7 @@ URL：https://bandmanagementd.herokuapp.com/
 
 ## このアプリについて
 Band Managementは、バンド活動における金銭管理・アーティスト写真管理を実現するアプリです。
+<br>
 
 ## 概要
 アプリ名：Band Management
@@ -13,12 +14,15 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 使用フレームワーク：Django
 作業人数：1人
 作業期間：10日間
+<br>
 
 ## アプリ開発の理由
 過去のバンド活動の経験から、バンド活動のマネジメントには多くの労力がかかると実感していました。
 その管理業務の中から、金銭管理・写真管理のタスクをアプリ化することで人手による労力の削減を実現しました。
+<br>
 
 ## 機能紹介
+- ホーム画面
 
 <img width="500" alt="bandmanagement_photo_explain.png" src="https://user-images.githubusercontent.com/57580026/75243706-b902a980-580d-11ea-9272-1b4a77a2a5ea.png">
 
