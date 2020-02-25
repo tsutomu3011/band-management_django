@@ -1,6 +1,10 @@
 # Band Management
 URL：https://bandmanagementd.herokuapp.com/
 
+
+
+
+
 ## このアプリについて
 Band Managementは、バンド活動における金銭管理・アーティスト写真管理を実現するアプリです。
 
