@@ -12,10 +12,10 @@
   font-style: italic;
   color: #999999;
   padding-top: 150px;
-  padding-left: 200px;
+  padding-left: 160px;
 }
 .wallet__form {
-  padding-left: 400px;
+  padding-left: 320px;
 }
 .wallet__form .income {
   color: #777777;
@@ -58,7 +58,7 @@
   margin-left: 200px;
 }
 .wallet .current__savings {
-  padding: 50px 0 0 350px;
+  padding: 50px 0 0 270px;
 }
 .wallet .current__savings p {
   font-size: 30px;
