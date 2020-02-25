@@ -1,8 +1,6 @@
 # Band Management
 <br>
-<br>
 URL：https://bandmanagementd.herokuapp.com/
-<br>
 <br>
 <br>
 
