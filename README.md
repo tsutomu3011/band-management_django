@@ -49,15 +49,19 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 金銭管理機能において、残高を棒グラフで表現した機能です。<br>
 グループの財政状況を数字でのみ把握するのではなく、ひと目でわかるよう可視化するため実装いたしました。<br>
 `Chart.js`というJavaScriptライブラリを使用し、適用する値はデータベースから取得しています。<br>
-増減の仕組みは、`views.py`内の関数において、データベースの最後の値に加減を行うことで実現しました。<br>
+増減の仕組みは、`views.py`内の関数において、データベースの最後の値に送信された値を加減することで実現しました。<br>
 
-```python
+```python:views.py
 def wallet(request):
+    # データ送信された場合の処理
     if request.method == "POST":
         send_money = request.POST
         total_wallet = Wallet.objects.last().money + int(send_money['money'])
         Wallet.objects.create(money=total_wallet)
         return redirect('top:wallet')
+    # 画面表示の場合の処理
+    # wallet_bar → 値が正の場合の変数
+    # wallet_deficit_bar → 値が負の場合の変数
     else:
         wallet_bar = 0
         wallet_deficit_bar = 0
