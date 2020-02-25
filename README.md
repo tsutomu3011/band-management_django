@@ -9,10 +9,10 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 <br>
 
 ## 概要
-アプリ名：Band Management
-使用言語：Python
-使用フレームワーク：Django
-作業人数：1人
+アプリ名：Band Management<br>
+使用言語：Python<br>
+使用フレームワーク：Django<br>
+作業人数：1人<br>
 作業期間：10日間
 <br>
 
