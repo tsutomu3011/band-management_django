@@ -20,7 +20,7 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 
 ## 機能紹介
 
-<img width="500" alt="bandmanagement_photo_explain.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/aaff61b1-2542-8be4-583e-7af1f4c6fc56.png">
+<img width="500" alt="bandmanagement_photo_explain.png" src="https://user-images.githubusercontent.com/57580026/75243706-b902a980-580d-11ea-9272-1b4a77a2a5ea.png">
 
 ***
 
