@@ -27,7 +27,7 @@
   border: 2px solid #bbbbbb;
   border-radius: 25px;
   margin-bottom: 20px;
-  margin-top: 150px;
+  margin-top: 80px;
   outline: none;
 }
 .wallet__form .payment {
@@ -58,7 +58,7 @@
   margin-left: 200px;
 }
 .wallet .current__savings {
-  padding: 90px 0 0 350px;
+  padding: 50px 0 0 350px;
 }
 .wallet .current__savings p {
   font-size: 30px;
@@ -73,7 +73,7 @@
 .wallet__graph {
   position: absolute;
   top: 40px;
-  right: 80px;
+  right: 30px;
 }
 }
 
