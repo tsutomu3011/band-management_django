@@ -19,13 +19,14 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 その管理業務の中から、金銭管理・写真管理のタスクをアプリ化することで人手による労力の削減を実現しました。
 
 ## 機能紹介
-<img width="500" alt="スクリーンショット 2020-02-25 17.39.30.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/c4ff1680-c108-7ebf-ee4d-f05dc8fc90ef.png">
+<img width="500" alt="bandmanagement_photo_explain.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/aaff61b1-2542-8be4-583e-7af1f4c6fc56.png">
 
 ***
 
 - 金銭管理機能
 
 > ①にて金銭の収支を「5000」「-3000」などと入力
+
 > Current Walletの値、②のbarchartが増減
 
 <img width="500" alt="スクリーンショット 2020-02-25 17.25.07.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/e81747d3-f821-b9b4-3e9d-92058c885036.png">
@@ -35,6 +36,7 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 - 写真管理機能
 
 > ①にてファイルを選択、その画像のシチュエーションを設定の上送信
+
 > ②に送信された画像ファイルが登録される
 
 <img width="500" alt="スクリーンショット 2020-02-25 18.53.44.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/c11c810b-bec3-ec27-56b8-1eca518b8929.png">
