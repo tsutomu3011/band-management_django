@@ -26,8 +26,7 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 
 - 金銭管理機能
 
-> ①にて金銭の収支を「5000」「-3000」などと入力
-
+> ①にて金銭の収支を「5000」「-3000」などと入力<br>
 > Current Walletの値、②のbarchartが増減
 
 <img width="500" alt="スクリーンショット 2020-02-25 17.25.07.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/e81747d3-f821-b9b4-3e9d-92058c885036.png">
@@ -36,8 +35,7 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 
 - 写真管理機能
 
-> ①にてファイルを選択、その画像のシチュエーションを設定の上送信
-
+> ①にてファイルを選択、その画像のシチュエーションを設定の上送信<br>
 > ②に送信された画像ファイルが登録される
 
 <img width="500" alt="スクリーンショット 2020-02-25 18.53.44.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/c11c810b-bec3-ec27-56b8-1eca518b8929.png">
