@@ -43,3 +43,31 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 > ②に送信された画像ファイルが登録される
 
 <img width="500" alt="スクリーンショット 2020-02-25 18.53.44.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/c11c810b-bec3-ec27-56b8-1eca518b8929.png">
+
+
+## こだわった機能
+金銭管理機能において、残高を棒グラフで表現した機能です。<br>
+グループの財政状況を数字でのみ把握するのではなく、ひと目でわかるよう可視化するため実装いたしました。<br>
+`Chart.js`というJavaScriptライブラリを使用し、適用する値はデータベースから取得しています。<br>
+増減の仕組みは、`views.py`内の関数において、データベースの最後の値に加減を行うことで実現しました。<br>
+
+```python
+def wallet(request):
+    if request.method == "POST":
+        send_money = request.POST
+        total_wallet = Wallet.objects.last().money + int(send_money['money'])
+        Wallet.objects.create(money=total_wallet)
+        return redirect('top:wallet')
+    else:
+        wallet_bar = 0
+        wallet_deficit_bar = 0
+        if Wallet.objects.last().money >= 0:
+            wallet_bar = Wallet.objects.last().money
+        else:
+            wallet_deficit_bar = Wallet.objects.last().money * -1
+        last_wallet = Wallet.objects.last()
+        form = WalletForm()
+        context = {'last_wallet':last_wallet, 'form':form, 'wallet_bar':wallet_bar, 'wallet_deficit_bar':wallet_deficit_bar}
+        return render(request, 'top/wallet.html', context)
+
+```
