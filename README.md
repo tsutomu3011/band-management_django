@@ -19,6 +19,7 @@ Band Managementは、バンド活動における金銭管理・アーティス�
 その管理業務の中から、金銭管理・写真管理のタスクをアプリ化することで人手による労力の削減を実現しました。
 
 ## 機能紹介
+
 <img width="500" alt="bandmanagement_photo_explain.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/531957/aaff61b1-2542-8be4-583e-7af1f4c6fc56.png">
 
 ***
