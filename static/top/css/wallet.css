@@ -58,7 +58,7 @@
   margin-left: 200px;
 }
 .wallet .current__savings {
-  padding: 50px 0 0 270px;
+  padding: 70px 0 0 270px;
 }
 .wallet .current__savings p {
   font-size: 30px;
@@ -72,8 +72,8 @@
 }
 .wallet__graph {
   position: absolute;
-  top: 40px;
-  right: 30px;
+  top: 60px;
+  right: 50px;
 }
 }
 
